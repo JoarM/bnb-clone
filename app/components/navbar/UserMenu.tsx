@@ -26,6 +26,7 @@ export default function UserMenu() {
                 border border-neutral-200 flex 
                 items-center gap-3 rounded-full 
                 hover:shadow-md transition"
+                aria-label="Profile menu"
                 onClick={toggleOpen}>
                     <AiOutlineMenu />
                     <div className="hidden md:block">
